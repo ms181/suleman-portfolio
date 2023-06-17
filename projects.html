@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Suleman Mohammed</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Inter Tight;
+        color: white;
+        transition: 0.3s;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background-color: #000;
+        overflow-x: hidden;
+      }
+
+      input:-webkit-autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus,
+      input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px black inset !important;
+        -webkit-text-fill-color: white !important;
+      }
+
+      #projects {
+        width: 100vw;
+        height: auto;
+        padding: 4rem 10rem;
+      }
+
+      #projects .title {
+        text-transform: capitalize;
+        font-size: 3rem;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #projects .grid {
+        columns: 3;
+        margin: 2rem 0;
+      }
+
+      #projects .grid .wrapper {
+        margin: 1rem 1rem;
+        width: 100%;
+        height: auto;
+        break-inside: avoid-column;
+        background-color: #1c1c1c;
+        padding: 1.2rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        border: 1px solid #fff0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+      }
+
+      #projects .grid .wrapper:first-child {
+        margin-top: 0;
+      }
+
+      #projects .grid .wrapper:hover {
+        background-color: #343434;
+        border: 1px solid #fff2;
+        box-shadow: 0px 10px 30px #fff1;
+      }
+
+      #projects .grid .wrapper img {
+        width: 100%;
+        border: 1px solid #fff0;
+        border-radius: 0.5rem;
+      }
+
+      #projects .grid .wrapper:hover img {
+        border: 1px solid #fff2;
+      }
+
+      #projects .grid .wrapper h1,
+      #projects .grid .wrapper p,
+      #projects .grid .wrapper button {
+        display: none;
+      }
+
+      #projects .grid .wrapper p {
+        color: #999;
+      }
+
+      @media screen and (max-width: 800px) {
+        #projects {
+          padding: 1rem;
+        }
+
+        #projects .grid {
+          columns: unset;
+        }
+
+        #projects .grid .wrapper {
+          width: calc(100% - 3rem) !important;
+        }
+
+        #projects .grid .wrapper {
+          margin: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section id="projects">
+      <h1 class="title">
+        <a
+          style="
+            font-size: 1rem;
+            font-weight: 400;
+            color: #999;
+            text-decoration: none;
+          "
+          href="index.html"
+          >↶ &nbsp; Go Back</a
+        >
+        <span>Projects</span>
+        <span></span>
+      </h1>
+      <div class="grid">
+        <div class="wrapper">
+          <img src="projects/webdevelopment100.png" alt="" />
+          <h1>E-commerce Website</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/logos4.webp" alt="" />
+          <h1>Logo Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/new2.png" alt="" />
+          <h1>Website Development</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/logos8.webp" alt="" />
+          <h1>Logo Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/webdevelopment6.webp" alt="" />
+          <h1>Website Development</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/businesscards1.webp" alt="" />
+          <h1>Business card design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/logos9.webp" alt="" />
+          <h1>Logo Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/logos11.webp" alt="" />
+          <h1>Logo Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/logos13.webp" alt="" />
+          <h1>Logo Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/posters4.webp" alt="" />
+          <h1>Poster Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/posters5.webp" alt="" />
+          <h1>Poster Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/posters11.webp" alt="" />
+          <h1>Poster Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/thumbnails13.webp" alt="" />
+          <h1>Thumbnail Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/new1.jpg" alt="" />
+          <h1>Website Development</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/new3.png" alt="" />
+          <h1>Website Development</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/new4.png" alt="" />
+          <h1>Website Development</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+        <div class="wrapper">
+          <img src="projects/new5.png" alt="" />
+          <h1>Website Development</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            laudantium, ratione sequi commodi voluptatem vitae?
+          </p>
+          <button class="button">View Details</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
